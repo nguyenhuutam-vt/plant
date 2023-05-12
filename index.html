@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0 auto;
+        background-color: lightgrey;
+      }
+      .wrapper {
+        background-color: white;
+        padding: 30px 70px;
+      }
+
+      ul {
+        text-align: center;
+      }
+      #content {
+        overflow: auto;
+      }
+
+      .column1,
+      .column2,
+      .column3 {
+        width: 31.3%;
+        float: left;
+      }
+
+      .column1 {
+        float: left;
+      }
+      .column2 {
+        margin: 0% 3%;
+      }
+      .column3 {
+        float: right;
+        margin: 0%;
+      }
+
+      li {
+        display: inline;
+        padding: 0.5em;
+      }
+
+      .banner,
+      .article {
+        background-color: #efefef;
+        height: 10em;
+        margin-bottom: 1em;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        font-family: fantasy;
+        font-size: xx-large;
+      }
+      a {
+        text-decoration: none;
+      }
+      li {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <ul class="nav">
+          <li class="logo">VuongFarm</li>
+          <li>
+            <a style="font-family: revert; color: #1e1e1e" href="">Home</a>
+          </li>
+          <li>
+            <a style="font-family: revert; color: rgba(30, 30, 30, 0.5)" href=""
+              >Products</a
+            >
+          </li>
+          <li>
+            <a style="font-family: revert; color: rgba(30, 30, 30, 0.5)" href=""
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <ul class="top-icon">
+          <li><img src="Vector (12).png" alt="" /></li>
+          <li><img src="Vector (13).png" alt="" /></li>
+          <li><img src="Line 1.png" alt="" /></li>
+          <li><img src="Vector (14).png" alt="" /></li>
+        </ul>
+      </div>
+      <!-- ==================== -->
+      <div id="content">
+        <div
+          class="banner"
+          style="
+            padding: 30px 30px;
+            background-color: #c1dcdc;
+            width: 100%;
+            height: 512px;
+            border-radius: 24px;
+            justify-content: space-between;
+            display: flex;
+          "
+        >
+          <div style="width: 50%">
+            <div style="width: 512px; height: 128px; font-size: 64px">
+              Buy your dream plants
+            </div>
+            <div
+              style="
+                display: flex;
+                width: 70%;
+                justify-content: space-between;
+                margin-top: 10%;
+              "
+            >
+              <div>
+                <div style="color: #1e1e1e; font-size: 32px">50+</div>
+                <div style="color: #1e1e1e; font-size: 32px">Plant Species</div>
+              </div>
+              <div><img src="Line 2.png" alt="" /></div>
+              <div>
+                <div style="color: #1e1e1e; font-size: 32px">100+</div>
+                <div style="color: #1e1e1e; font-size: 32px">Customer</div>
+              </div>
+            </div>
+            <div style="margin-top: 10%; position: relative">
+              <input
+                type="text"
+                style="
+                  width: 449px;
+                  height: 64px;
+                  border-radius: 12px;
+                  position: absolute;
+                  text-indent: 10px;
+                "
+                placeholder="What are you looking for"
+              />
+              <div
+                style="
+                  width: 48px;
+                  height: 48px;
+                  border-radius: 12px;
+                  background-color: #c1dcdc;
+                  position: absolute;
+                  transform: translate(390px, 10px);
+                "
+              >
+                <img
+                  style="transform: translate(15px, 15px); position: absolute"
+                  src="Vector (15).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div style="width: 50%; position: relative">
+            <img
+              style="position: absolute; transform: translate(200px, 150px)"
+              src="Rectangle 2.png"
+              alt=""
+            />
+            <img
+              style="position: absolute; transform: translate(260px, 48px)"
+              src="unsplash_cLaaxa4DSnc-removebg-preview 1 (1).png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ======= -->
+        <div
+          class="banner"
+          style="
+            display: flex;
+            height: max-content;
+            padding: 50px 0px;
+            background-color: white;
+          "
+        >
+          <div style="font-size: 32px; width: 20%">
+            <div style="padding: 30px 30px">Best Selling Plants</div>
+            <div
+              style="
+                font-size: 18px;
+                padding: 30px 30px;
+                color: rgba(30, 30, 30, 0.5);
+              "
+            >
+              Easiest way to healthy life by buying your favorite plants
+            </div>
+            <div style="position: relative; padding: 30px 30px">
+              <button
+                style="
+                  height: 51px;
+                  width: 168px;
+                  border-radius: 8px;
+                  background-color: #c1dcdc;
+                  font-size: 18px;
+                  color: #1e1e1e;
+                  position: absolute;
+                "
+              >
+                See More
+              </button>
+              <img
+                style="position: absolute; transform: translate(135px, 18px)"
+                src="Vector (16).png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            style="
+              float: right;
+              width: 80%;
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              row-gap: 20px;
+              column-gap: 40px;
+            "
+          >
+            <div>
+              <img src="Frame 9.png" alt="" />
+              <div>
+                <div>Natural Plants</div>
+                <div>140.000đ</div>
+              </div>
+            </div>
+            <div>
+              <img src="Frame 8 (2).png" alt="" />
+              <div>
+                <div>Natural Plants</div>
+                <div>140.000đ</div>
+              </div>
+            </div>
+            <div>
+              <img src="Frame 7 (3).png" alt="" />
+              <div>
+                <div>Natural Plants</div>
+                <div>140.000đ</div>
+              </div>
+            </div>
+            <div>
+              <img src="Frame 7 (2).png" alt="" />
+              <div>
+                <div>Natural Plants</div>
+                <div>140.000đ</div>
+              </div>
+            </div>
+            <div>
+              <img src="Frame 9 (2).png" alt="" />
+              <div>
+                <div>Natural Plants</div>
+                <div>140.000đ</div>
+              </div>
+            </div>
+            <div>
+              <img src="Frame 8 (3).png" alt="" />
+              <div>
+                <div>Natural Plants</div>
+                <div>140.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= -->
+        <div class="banner" style="width: 100%; height: 413px">
+          <div style="text-align: center">
+            <div style="font-size: 32px; font-family: fantasy">About Us</div>
+            <div style="color: rgba(30, 30, 30, 0.5)">
+              Order now and appreciate the beauty of nature
+            </div>
+          </div>
+          <div
+            style="display: flex; margin-top: 2%; justify-content: space-around"
+          >
+            <div>
+              <div style="text-align: center; position: relative">
+                <img style="" src="Ellipse 1 (1).png" alt="" />
+                <img
+                  src="Vector (17).png"
+                  alt=""
+                  style="position: absolute; transform: translate(-67px, 31px)"
+                />
+              </div>
+
+              <div style="text-align: center">
+                <div>Large Assortment</div>
+                <div>
+                  we offer many different types of products with fewer
+                  variations in each category.
+                </div>
+              </div>
+            </div>
+            <div>
+              <div style="text-align: center; position: relative">
+                <img style="" src="Ellipse 1 (1).png" alt="" />
+                <img
+                  src="Vector (26).png"
+                  alt=""
+                  style="position: absolute; transform: translate(-67px, 31px)"
+                />
+              </div>
+
+              <div style="text-align: center">
+                <div>Large Assortment</div>
+                <div>
+                  we offer many different types of products with fewer
+                  variations in each category.
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div style="text-align: center; position: relative">
+                <img style="" src="Ellipse 1 (1).png" alt="" />
+                <img
+                  src="Vector (25).png"
+                  alt=""
+                  style="position: absolute; transform: translate(-67px, 31px)"
+                />
+              </div>
+
+              <div style="text-align: center">
+                <div>Large Assortment</div>
+                <div>
+                  we offer many different types of products with fewer
+                  variations in each category.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner" style="text-align: center; background-color: white">
+          <div style="font-size: 32px; font-family: fantasy">Category</div>
+          <div style="font-size: 18px">Find what you are looking for</div>
+        </div>
+
+        <div
+          class="banner"
+          style="
+            width: 100%;
+            height: 841px;
+            background-color: #c1dcdc;
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+          "
+        >
+          <div
+            style="
+              width: 33.3%;
+              z-index: 1;
+              text-align: center;
+              margin-top: -180px;
+            "
+          >
+            <div><img src="Frame 36.png" alt="" /></div>
+            <div>
+              <div style="font-size: 18px; font-family: fantasy">
+                Natural Plants
+              </div>
+            </div>
+          </div>
+
+          <div style="width: 33.3%; z-index: 1; text-align: center">
+            <div><img src="Frame 37.png" alt="" /></div>
+            <div>
+              <div style="font-size: 18px; font-family: fantasy">
+                Natural Plants
+              </div>
+            </div>
+            <div>Horem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div style="position: relative">
+              <button
+                style="
+                  background-color: #ffffff;
+                  width: 147px;
+                  height: 51px;
+                  border-radius: 8px;
+                  position: absolute;
+                  transform: translate(-77px, 15px);
+                "
+              >
+                Explore
+              </button>
+              <img
+                src="Vector (20).png"
+                alt=""
+                style="position: absolute; transform: translate(35px, 33px)"
+              />
+            </div>
+          </div>
+
+          <div
+            style="
+              width: 33.3%;
+              z-index: 1;
+              text-align: center;
+              margin-top: -180px;
+            "
+          >
+            <div><img src="Frame 38.png" alt="" /></div>
+            <div>
+              <div style="font-size: 18px; font-family: fantasy">
+                Natural Plants
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="banner"
+          style="width: 100%; height: 648px; padding: 50px 50px"
+        >
+          <div>
+            <div style="font-size: 32px; font-family: fantasy">
+              What customers say about
+            </div>
+            <div style="font-size: 32px; font-family: fantasy">VuongFarm?</div>
+          </div>
+          <div
+            style="
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              column-gap: 50px;
+              overflow-x: scroll;
+              column-gap: 50px;
+            "
+          >
+            <div
+              style="
+                background-color: #c1dcdc;
+                width: 800px;
+                height: max-content;
+                border-radius: 10px;
+              "
+            >
+              <div style="padding: 30px 35px">
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </div>
+              <div style="display: flex">
+                <div style="width: 20%">
+                  <img
+                    style=""
+                    src="unsplash_5aGUyCW_PJw-removebg-preview (1).png"
+                    alt=""
+                  />
+                </div>
+                <div style="width: 60%; margin-top: 8%">
+                  <div>John Doe</div>
+                  <div>Youtube</div>
+                </div>
+                <div style="width: 20%; display: flex; margin-top: 8%">
+                  <div style="margin-right: 10%">
+                    <img src="Vector (21).png" alt="" />
+                  </div>
+                  <div>4.5</div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                background-color: #c1dcdc;
+                width: 800px;
+                height: max-content;
+                border-radius: 10px;
+              "
+            >
+              <div style="padding: 30px 35px">
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </div>
+              <div style="display: flex">
+                <div style="width: 20%">
+                  <img
+                    style=""
+                    src="unsplash_5aGUyCW_PJw-removebg-preview (1).png"
+                    alt=""
+                  />
+                </div>
+                <div style="width: 60%; margin-top: 8%">
+                  <div>John Doe</div>
+                  <div>Youtube</div>
+                </div>
+                <div style="width: 20%; display: flex; margin-top: 8%">
+                  <div style="margin-right: 10%">
+                    <img src="Vector (21).png" alt="" />
+                  </div>
+                  <div>4.5</div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                background-color: #c1dcdc;
+                width: 800px;
+                height: max-content;
+                border-radius: 10px;
+              "
+            >
+              <div style="padding: 30px 35px">
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </div>
+              <div style="display: flex">
+                <div style="width: 20%">
+                  <img
+                    style=""
+                    src="unsplash_5aGUyCW_PJw-removebg-preview (1).png"
+                    alt=""
+                  />
+                </div>
+                <div style="width: 60%; margin-top: 8%">
+                  <div>John Doe</div>
+                  <div>Youtube</div>
+                </div>
+                <div style="width: 20%; display: flex; margin-top: 8%">
+                  <div style="margin-right: 10%">
+                    <img src="Vector (21).png" alt="" />
+                  </div>
+                  <div>4.5</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="footer"
+          style="
+            width: 100%;
+            height: 423px;
+            background-color: #c1dcdc;
+            display: flex;
+            justify-content: space-between;
+          "
+        >
+          <div style="padding: 50px 100px">
+            <div style="font-size: 18px; font-family: fantasy">GREENMIND</div>
+            <div
+              style="
+                font-size: 18px;
+                color: rgba(30, 30, 30, 0.5);
+                margin-top: 25%;
+              "
+            >
+              <div>We help you find</div>
+              <div>your dream plant</div>
+            </div>
+
+            <div style="margin-top: 20%; display: flex; flex-wrap: wrap">
+              <div style="position: relative">
+                <img src="Ellipse 2.png" alt="" style="position: absolute" />
+                <img
+                  src="Vector (22).png"
+                  alt=""
+                  style="position: absolute; transform: translate(18px, 17px)"
+                />
+              </div>
+
+              <div style="margin-left: 50%; position: relative">
+                <img src="Ellipse 2.png" alt="" style="position: absolute" />
+                <img
+                  src="Vector (23).png"
+                  alt=""
+                  style="position: absolute; transform: translate(16px, 16px)"
+                />
+              </div>
+              <div style="margin-left: 100%; position: relative">
+                <img src="Ellipse 2.png" alt="" style="position: absolute" />
+                <img
+                  src="Vector (24).png"
+                  alt=""
+                  style="position: absolute; transform: translate(16px, 16px)"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: space-around;
+              width: 50%;
+              padding: 50px 100px;
+            "
+          >
+            <div>
+              <div
+                style="font-size: 18px; color: #1e1e1e; font-family: fantasy"
+              >
+                Information
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                About
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                Product
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                Blog
+              </div>
+            </div>
+            <div>
+              <div
+                style="font-size: 18px; color: #1e1e1e; font-family: fantasy"
+              >
+                Information
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                About
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                Product
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                Blog
+              </div>
+            </div>
+            <div>
+              <div
+                style="font-size: 18px; color: #1e1e1e; font-family: fantasy"
+              >
+                Information
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                About
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                Product
+              </div>
+              <div
+                style="
+                  font-size: 18px;
+                  color: rgba(30, 30, 30, 0.5);
+                  margin-top: 20%;
+                "
+              >
+                Blog
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
